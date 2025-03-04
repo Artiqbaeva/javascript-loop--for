@@ -137,3 +137,55 @@
   for (i = 1; i <= a; i++) sum = sum * i;
   console.log(sum);
 }
+// 18 array
+{
+  let fruits = ["apple", "banana", "melon", "pineapple"];
+  console.log(fruits[1]); // banana
+}
+// 19
+{
+  let animals = ["tiger", "dog", "cat", "goat"];
+  console.log(animals[3]); // goat
+}
+// 20
+{
+  let desktop = ["mouse", "klaviatura", "disk", "monitor"];
+  console.log(desktop[0]); // mouse
+}
+// 21
+{
+  let student = {
+    name: "Diana",
+    last_name: "Jumabaeva",
+    age: 18,
+    address: "Tashkent",
+    isMArried: false,
+    interests: "reading books",
+    ID: "AD23325",
+    Passport_seria: 9374274293794787,
+  };
+}
+// 22
+{
+  let car = {
+    car_number: "01 384 AB",
+    created_year: 2024,
+    owner: "G'ulomjon",
+  };
+}
+// 23
+{
+  let book = {
+    name: "The Alchemist",
+    year: 1988,
+    readers: "300 million",
+    author: "Paulo Coelho",
+  };
+}
+// 24  1 dan 100 gacha bo'lgan barcha sonlarning yig'indisini hisoblash uchun for siklidan foydalaning.
+{
+  let a = 100;
+  sum = 0;
+  for (i = 1; i <= 100; i++) sum = sum + i;
+  console.log(sum);
+}
